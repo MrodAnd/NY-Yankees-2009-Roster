@@ -1,0 +1,59 @@
+* {
+    font-family: cursive
+}
+
+h1 {
+    color: DarkBlue;
+    font-size: 36px;
+    border: 1px groove;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0 0 6px 0;
+}
+
+h1:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    color: white
+}
+
+.card {
+    border: 1px groove;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0 0 6px 0;
+    color: white
+}
+
+.card:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.column {
+    flex: 50%;
+}
+
+.Position {
+    font-size: 12px;
+    font color: White
+}
+
+#column-left {
+    background-color: #003087;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#column-right {
+    background-color: white;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+}
