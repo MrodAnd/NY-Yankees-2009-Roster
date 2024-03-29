@@ -5,6 +5,7 @@
 h1 {
     color: DarkBlue;
     font-size: 52px;
+    font-weight: bold;
     border: 1px groove;
     padding: 5px;
     border-radius: 3px;
