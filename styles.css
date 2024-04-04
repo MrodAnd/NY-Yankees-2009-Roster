@@ -41,9 +41,14 @@ h1:hover {
 }
 
 .player_label {
-    font-size: 18px;
-    font color: White;
+    font-size: 28px;
+    color: White;
     font-weight: bold;
+}
+
+._player_stats {
+    font-size: 12px;
+    color: grey;
 }
 
 #column-left {
@@ -55,7 +60,9 @@ h1:hover {
 
 #column-right {
     background-color: white;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
     text-align: center;
     padding-top: 30px;
 }
