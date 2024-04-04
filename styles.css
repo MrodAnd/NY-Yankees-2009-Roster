@@ -40,9 +40,10 @@ h1:hover {
     flex: 50%;
 }
 
-.Position {
-    font-size: 12px;
-    font color: White
+.player_label {
+    font-size: 18px;
+    font color: White;
+    font-weight: bold;
 }
 
 #column-left {
